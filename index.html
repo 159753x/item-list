@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+    
+    <!-- title -->
+    <title>Item Adder</title>
+</head>
+<body>
+    <header class="header">
+        <h1>ItemAdder</h1>
+        <div class="container-search">
+            <input type="text" id="searchbar" placeholder="Search...">
+        </div>
+    </header>
+
+    <main>
+        <div class="item-container" id="container">
+            <h2>Items</h2>
+            <form action="" id="form1">
+                <span>Add element :</span>
+                <input type="text" id="input" placeholder="Text">
+                <input type="submit" id="submit-btn">
+            </form>
+            <!-- alert message -->
+
+            <ul class="list" id="list">
+                <!-- <div class="el-container">
+                    <li class="element">aloe</li>
+                    <button type="button" class="btn btn-danger ls-btn" id="delete-button"><i class="far fa-times-circle" id="icon-delete"></i></button>                    
+                </div> -->
+            </ul>
+
+        </div>
+    </main>
+<script src="script.js"></script>    
+</body>
+</html>
